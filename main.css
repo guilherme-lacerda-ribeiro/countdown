@@ -1,0 +1,53 @@
+:root {
+    --cor-fundo: #131313;
+    --cor-letra: #e6e6e6;
+    --cor-vermelho-claro: #DE0000;
+    --cor-vermelho-escuro: #AB2222;
+    --cor-marrom-claro: #783030;
+    --cor-marrom-escuro: #452929;
+    --cor-marrom: #673030;
+    --cor-azul: #2C6A91;
+    --cor-verde: #306740;
+    --cor-cinza-claro-mais: #BABABA;
+    --cor-cinza-claro: #919191;
+    --cor-cinza-escuro: #4B4B4B;
+    --cor-cinza-escuro-mais: #232323;
+}
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background: var(--cor-fundo);
+    color: var(--cor-letra);
+    font-size: 15vw;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    gap: 5px;
+}
+div {
+    display: block;
+}
+div.entrada-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 100%;
+    text-align: center;
+    gap: 5px;
+    align-items: center;
+}
+button {
+    font-size: 8vw;
+    width: 100%;
+    border-radius: 2vw;
+    background: rebeccapurple;
+    max-height: 14vw;
+    aspect-ratio: 1;
+}
